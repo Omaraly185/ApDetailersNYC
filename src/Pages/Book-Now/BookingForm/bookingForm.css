@@ -1,0 +1,106 @@
+.contact-form-container {
+  padding: 20px;
+  border: 1px solid rgb(11, 2, 2);
+  box-shadow: 10px rgb(0, 0, 0);
+  background-color: rgb(56, 54, 54);
+  position: relative;
+  z-index: 2;
+  color: azure;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+.FieldErrorMessage {
+  color: red;
+}
+
+/* input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+} */
+
+.testing1234 {
+  column-count: 2;
+}
+
+.inputForm {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.error {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border-color: red;
+}
+.multiSelectContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.react-tiny-popover-container {
+  margin-top: -68px;
+}
+.invert {
+  filter: invert(1);
+}
+
+.multiSelectContainer div {
+  display: flex;
+  align-items: center;
+}
+
+.multiSelectContainer div input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.multiSelectContainer div label {
+  cursor: pointer;
+}
+.package-dropdown {
+  background-color: #f0ecec;
+  color: rgb(36, 35, 35);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.minecraft {
+  background-color: #6248b8;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

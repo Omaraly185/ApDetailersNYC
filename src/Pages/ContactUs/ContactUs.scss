@@ -1,0 +1,127 @@
+.Section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  box-sizing: none !important;
+  padding-bottom: 20px;
+}
+.noboxing {
+  box-sizing: content-box !important;
+}
+.backGround-Img {
+  background: url("ny.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.svgLogo {
+  align-items: center;
+  width: 20px;
+  padding-right: 370px;
+}
+
+.controller-img {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactImg {
+  max-width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.Bro {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  box-sizing: content-box;
+  font-family: "Georgia", cursive;
+  color: #00b4f6;
+  font-weight: 600;
+}
+/* .boxing{
+    text-shadow: 2px 0 #00f2ea, -2px 0 #EE1D52, 0 2px #00f2ea, 0 -2px #EE1D52,
+               1px 1px #00f2ea, -1px -1px #EE1D52, 1px -1px #00f2ea, -1px 1px #EE1D52;
+} */
+.games {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: content-box;
+  width: 100%;
+  text-align: center;
+  gap: 20px;
+}
+
+.game-link {
+  background-color: #00b4f6;
+  font-weight: bolder;
+  height: 20px;
+  min-width: 370px;
+  box-sizing: content-box;
+  padding: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  transition-duration: 0.7s;
+  font-size: 1rem;
+  font-family: "Georgia";
+}
+
+.game-link:hover {
+  color: #ffffff;
+  transition-duration: 0.7s;
+  box-sizing: content-box;
+}
+.instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 99.5%
+  );
+}
+.facebook:hover {
+  background-color: #1b418d;
+}
+.reddit:hover {
+  background-color: #ff4300;
+}
+.tiktok:hover {
+  background-color: #202124;
+}
+.twitter:hover {
+  background-color: #1ca2f1;
+}
+
+.game-link:hover .svgLogo {
+  filter: invert(1);
+}
+
+.game-link:hover .boxing {
+  text-shadow: 2px 0 #00f2ea, -2px 0 #ee1d52, 0 2px #00f2ea, 0 -2px #ee1d52,
+    1px 1px #00f2ea, -1px -1px #ee1d52, 1px -1px #00f2ea, -1px 1px #ee1d52;
+}
+
+@media all and (max-width: 750px) {
+  /* body {
+    background: url('ny.png');
+    background-size: 140% 330px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  } */
+}

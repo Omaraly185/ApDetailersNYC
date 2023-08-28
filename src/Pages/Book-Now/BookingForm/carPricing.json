@@ -1,0 +1,86 @@
+{
+  "sedan": {
+    "services": {
+      "wax": { "minPrice": 35, "maxPrice": 35 },
+      "waterSpot": { "minPrice": 30, "maxPrice": 30 },
+      "engineClean": { "minPrice": 35, "maxPrice": 35 },
+      "headlight": { "minPrice": 40, "maxPrice": 40 }
+    },
+    "exteriors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "standardExterior": { "minPrice": 50, "maxPrice": 50 },
+      "standardPlus": { "minPrice": 125, "maxPrice": 125 },
+      "oneStep": { "minPrice": 400, "maxPrice": 400 },
+      "twoStep": { "minPrice": 600, "maxPrice": 600 }
+    },
+    "interiors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "silverInterior": { "minPrice": 55, "maxPrice": 95 },
+      "goldInterior": { "minPrice": 100, "maxPrice": 200 },
+      "pressureSpecial": { "minPrice": 200, "maxPrice": 350 }
+    }
+  },
+  "twoRow": {
+    "services": {
+      "wax": { "minPrice": 80, "maxPrice": 120 },
+      "waterSpot": { "minPrice": 30, "maxPrice": 30 },
+      "engineClean": { "minPrice": 35, "maxPrice": 35 },
+      "headlight": { "minPrice": 40, "maxPrice": 40 }
+    },
+    "exteriors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "standardExterior": { "minPrice": 55, "maxPrice": 55 },
+      "standardPlus": { "minPrice": 140, "maxPrice": 140 },
+      "oneStep": { "minPrice": 450, "maxPrice": 450 },
+      "twoStep": { "minPrice": 675, "maxPrice": 675 }
+    },
+    "interiors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "silverInterior": { "minPrice": 60, "maxPrice": 100 },
+      "goldInterior": { "minPrice": 120, "maxPrice": 220 },
+      "pressureSpecial": { "minPrice": 240, "maxPrice": 390 }
+    }
+  },
+  "threeRow": {
+    "services": {
+      "wax": { "minPrice": 80, "maxPrice": 120 },
+      "waterSpot": { "minPrice": 30, "maxPrice": 30 },
+      "engineClean": { "minPrice": 35, "maxPrice": 35 },
+      "headlight": { "minPrice": 40, "maxPrice": 40 }
+    },
+    "exteriors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "standardExterior": { "minPrice": 70, "maxPrice": 70 },
+      "standardPlus": { "minPrice": 175, "maxPrice": 175 },
+      "oneStep": { "minPrice": 550, "maxPrice": 550 },
+      "twoStep": { "minPrice": 825, "maxPrice": 825 }
+    },
+    "interiors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "silverInterior": { "minPrice": 70, "maxPrice": 110 },
+      "goldInterior": { "minPrice": 140, "maxPrice": 240 },
+      "pressureSpecial": { "minPrice": 280, "maxPrice": 430 }
+    }
+  },
+  "van": {
+    "services": {
+      "wax": { "minPrice": 80, "maxPrice": 120 },
+      "waterSpot": { "minPrice": 30, "maxPrice": 30 },
+      "engineClean": { "minPrice": 35, "maxPrice": 35 },
+      "headlight": { "minPrice": 40, "maxPrice": 40 }
+    },
+    "exteriors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "standardExterior": { "minPrice": 95, "maxPrice": 95 },
+      "standardPlus": { "minPrice": 240, "maxPrice": 240 },
+      "oneStep": { "minPrice": 600, "maxPrice": 600 },
+      "twoStep": { "minPrice": 900, "maxPrice": 900 }
+    },
+    "interiors": {
+      "NA": { "minPrice": 0, "maxPrice": 0 },
+      "silverInterior": { "minPrice": 95, "maxPrice": 105 },
+      "goldInterior": { "minPrice": 185, "maxPrice": 240 },
+      "pressureSpecial": { "minPrice": 300, "maxPrice": 430 }
+    }
+  }
+}
